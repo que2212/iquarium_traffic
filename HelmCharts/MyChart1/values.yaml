@@ -1,0 +1,6 @@
+# Default Values for my Helm Chart
+
+container:
+  image: que2212/k8sphp:latest
+
+replicaCount: 2
