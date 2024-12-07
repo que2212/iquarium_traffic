@@ -1,0 +1,20 @@
+replicaCount: 1
+
+mysql:
+  user: root
+  password: password
+  database: mydb
+  port: 3306
+
+ingress:
+  enabled: true
+  host: "ВСТАВИТЬ ССЫЛКУ"
+  path: "/"
+
+image:
+  repository: que2212/k8sphp
+  tag: latest
+
+nginxIngress:
+  controller:
+    replicaCount: 2
