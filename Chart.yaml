@@ -1,0 +1,4 @@
+apiVersion: v2
+name: my-website
+description: A Helm chart for deploying a website with PHP, MySQL, and NGINX Ingress Controller
+version: 0.1.0

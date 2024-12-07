@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-website-deployment
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: my-website
+  template:
+    metadata:
+      labels:
+        app: my-website
+    spec:
+      containers:
+  - name: php-site
+    image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+    ports:
+      - containerPort: 80
+    env:
+      - name: MYSQL_HOST
+        value: "mysql-service"
+      - name: MYSQL_USER
+        valueFrom:
+          secretKeyRef:
+            name: mysql-secret
+            key: username
+      - name: MYSQL_PASSWORD
+        valueFrom:
+          secretKeyRef:
+            name: mysql-secret
+            key: password
+    resources:
+      requests:
+        cpu: 100m
+        memory: 128Mi
+      limits:
+        cpu: 500m
+        memory: 256Mi
