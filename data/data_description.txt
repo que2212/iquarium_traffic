@@ -1,0 +1,39 @@
+## Citation Request:
+This dataset is publicly available for research purposes. Please include the following citation if you use this dataset:
+
+**Authors**: iquarium_traffic Hackathon team "Desperate Economists"
+**Dataset Title**: "Traffic Jams"
+
+---
+
+1. **Title**: Traffic Jams
+
+2. **Sources**:
+   Created by: Borzov Artem.
+
+3. **Past Usage**:
+   This dataset is designed for analyzing urban traffic dynamics, including factors influencing congestion, crashes, and traffic flow.
+
+4. **Relevant Information**:
+   The dataset provides hourly data on weather, traffic, and road incidents in urban settings. It aims to support predictive modeling for traffic jams using features such as weather conditions, time of day, and the type of day (workday or weekend). This data can be utilized for classification or regression tasks. Additionally, it may be valuable for outlier detection and feature selection research.
+
+5. **Number of Instances**: 19 rows (expandable based on additional data collection).
+
+6. **Number of Attributes**: 11 attributes.
+   Note: Some attributes may be correlated, making feature selection potentially useful.
+
+7. **Attribute Information**:
+   1. **date**: The timestamp for the data entry (YYYY-MM-DD HH:MM:SS).
+   2. **temp**: Temperature at the specified time (°C).
+   3. **weather**: General weather condition (clear, cloudy, rain, e.g.).
+   4. **weekday**: The day of the week (e.g., Thursday).
+   5. **hour**: The hour of the day (0-23).
+   6. **hour_type**: Part of the day (e.g., night, morning, afternoon, evening).
+   7. **day_type**: The type of day (workday or weekend).
+   8. **traffic**: The number of vehicles on the road at the specified time.
+   9. **crash**: The number of traffic incidents recorded during the hour.
+   10. **address**: Specific location(s) of recorded incidents or jams (if any).
+   11. **predicted_jams**: A predicted congestion level based on collected data.
+
+8. **Missing Attribute Values**:
+   None detected in the provided dataset.
