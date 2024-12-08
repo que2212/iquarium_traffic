@@ -14,11 +14,8 @@
     <div class="head_stat">
         <div class="situat">
             <h1>О ситуации на дорогах</h1>
-            <div class="trafic"><div id="traffic-container">
-        
-        <div id="traffic-score">
-            Загрузка данных...
-        </div>
+            <div class="trafic"><span id="numb_of_sit">10</span>
+            <p>Высокая загруженность дорог</p></div>
     </div>
             <p>Высокая загруженность дорог</p></div>
         </div>
