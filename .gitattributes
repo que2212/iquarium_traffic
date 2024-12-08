@@ -1,0 +1,5 @@
+*.sh linguist-language=Bash
+*.bat linguist-language=Batch
+*.py linguist-language=Python
+*.html linguist-generated=true
+*.html linguist-detectable=false
