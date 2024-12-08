@@ -1,11 +1,3 @@
-<?php
-$conn = new mysqli('localhost', 'root', 'root', 'news');
-$news = mysqli_query($conn, "SELECT * FROM `new_inf`");
-?>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
