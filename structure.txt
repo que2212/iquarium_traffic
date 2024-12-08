@@ -1,0 +1,47 @@
+Traffic Jams/
+│
+├── chromedriver/                  # Драйвер для работы с Selenium
+│   ├── chromedriver.exe
+│   ├── LICENSE.chromedriver
+│   └── THIRD_PARTY_NOTICES.chromedriver
+│
+├── config.py                      # Конфигурационные настройки
+├── fast_api.bash                  # Скрипт для запуска FastApi
+├── main.py                        # Главный скрипт
+│
+├── data/                          # Данные проекта
+│   ├── data_description.txt       	# Обработанные
+│   ├── draft/                    	# Сырые
+│   ├── raw/                       	# Готовый результат
+│   ├── result/                    	# Для сайта
+│   └── site/                      
+│
+├── modeling/                      # Моделирование
+│   ├── __init__.py                	# Инициализационный файл
+│   ├── augmentation.py            	# Аугментация - модель TensorFlow
+│   ├── formation.py               	# Формирование train/test
+│   ├── run_modeling.py            	# Запуск пайплайна
+│   └── time_series.py             	# Временные ряды - модель CatBoost+ Fourier Series
+│
+├── models/                        # Модели и параметры
+│   ├── best_params.json           	# Гиперпараметры
+│   ├── catboost_info              	# Логи обучение
+│   ├── jams_boost.cbm             	# CatBoost
+│   ├── log.json                   	# Логи предсказания
+│   └── traffic_lstm.h5            	# TensorFlow
+│
+├── parsing/                       # Парсинг
+│   ├── __init__.py                	# Инициализационный файл
+│   ├── crash.py                   	# Аварии
+│   ├── scheduler.py               	# Ланировщик
+│   ├── score.py                   	# Баллы
+│   └── weather.py                      # Погода
+│
+├── plots/                         # Визуализация данных
+│   ├── eda_01.png                 	# Рисунки и графики EDA
+│   ├── eda_02.png
+│   ├── eda_03.png
+│   └── eda_04.png
+│
+├── requirements.txt               # Зависимости
+└── structure.txt                  # Структуры
