@@ -8,7 +8,6 @@ mysql:
 
 ingress:
   enabled: true
-  host: "ВСТАВИТЬ ССЫЛКУ"
   path: "/"
 
 image:
