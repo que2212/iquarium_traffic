@@ -16,4 +16,4 @@
 - **Optuna**: for tuning hyperparameters
 - **FastApi**: for connected between the operator and the server
 - **TensorFlow**: used for data augmentation, stimulate the real behavior of the city
-- **CatBoost with Fourier Series**: simulation of the traffic situation, RMSE = 0.15810, accuracy is up to 85%
+- **CatBoost with Fourier Series**: prediction traffic situation, RMSE = 0.15810, accuracy is up to 85%
