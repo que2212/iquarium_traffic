@@ -25,8 +25,8 @@
 Уровень готовности: Относительно готовы, так как сайт уже развернут в кубернетес кластере на облаке. Необходимо лишь исправить некоторые баги, а также переехать на gitlab, интегрировать argoCD для CD-pipeline.
 
 Команда:
-Осипян Валерий – marketing-analyst 
-Борзов Артем – backend developer, ML manager
-Сергеев Андрей – DevOps engineer, data science
-Андреенко Иван – founder, product manager
-Дарья Ятаева – frontend developer, designer
+- Осипян Валерий – marketing-analyst 
+- Борзов Артем – ML-Enginer, Backend Developer
+- Сергеев Андрей – DevOps engineer, data science
+- Андреенко Иван – founder, product manager
+- Дарья Ятаева – frontend developer, designer
